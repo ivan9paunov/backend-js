@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 const { Schema } = mongoose;
 
-const MovieSchema = new Schema ({
+const TvSerieSchema = new Schema ({
     title: String,
     description: String,
     image: String,
@@ -11,5 +11,5 @@ const MovieSchema = new Schema ({
     },
 })
 
-const Movie = mongoose.model("Movie", MovieSchema);
-export default Movie;
+const TvSerie = mongoose.model("TvSerie", TvSerieSchema);
+export default TvSerie;
