@@ -31,6 +31,7 @@ async function startApolloServer() {
             return context;
         },
         formatError,
+        playground: true,
     });
     await server.start();
 
