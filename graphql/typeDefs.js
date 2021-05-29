@@ -4,9 +4,10 @@
 import { mergeTypeDefs } from "@graphql-tools/merge";
 import userType from "./types/user.js";
 import movieType from "./types/movie.js";
+import tvserieType from "./types/tvserie.js";
 
 // const __dirname = path.resolve();
 // const typesArray = loadFilesSync(path.join(__dirname, './graphql/types'), { extensions: ['js'] });
 
 
-export default mergeTypeDefs([userType, movieType]);
+export default mergeTypeDefs([userType, movieType, tvserieType]);
