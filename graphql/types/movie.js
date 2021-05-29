@@ -5,12 +5,14 @@ export default `
         title: String!
         description: String!
         rating: Float!
+        image: String
     }
 
     input CreateMovieInput {
         title: String!
         description: String!
         rating: Float!
+        image: String
     }
 
     type Query {
